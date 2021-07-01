@@ -1,0 +1,20 @@
+header{
+background-color: beige;
+text-align: right;  
+}
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+  margin: .4rem 0;
+}
+p{
+  text-align: center;
+  color: darkblue;
+}
+body{
+  background-color: orange;
+}
