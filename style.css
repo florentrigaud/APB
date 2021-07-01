@@ -18,3 +18,12 @@ p{
 body{
   background-color: orange;
 }
+.iamge1{
+  text-align: left;
+}
+.image2{
+  text-align: right;
+}
+.image3{
+  text-align: center;
+}
