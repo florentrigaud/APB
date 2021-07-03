@@ -41,5 +41,11 @@ body{
 }*/
 .info{
   text-align: center;
-  
+
+}
+footer{
+  background-color: black;
+  text-decoration: aqua;
+  text-align: center;  
+  height: 50px;
 }
