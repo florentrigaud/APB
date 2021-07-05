@@ -2,50 +2,48 @@ header{
 background-color: beige;
 text-align: right;  
 }
-label {
-  display: block;
-  font: 1rem 'Fira Sans', sans-serif;
-}
-
-input,
-label {
-  margin: .4rem 0;
-}
 p{
   text-align: center;
   color: darkblue;
 }
 body{
-  background-color: orange;
-}
-.iamge1{
-  text-align: left;
-    float: left;
-}
-.image2{
-  text-align: right;
-    float: right;
+  font: 1.2em Helvetica, Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #eee;
 }
 .image3{
   text-align: center;
   margin-top: 200px;
-}
-/*@media  screen  and (min-width: 1050) and (orientation: portrait) {
-  .image1{
-    display: none;
-  }
-  header{
 
-  }
-  
-}*/
+}
+.image1{
+  text-align: left;
+  float: left;
+
+}
+.image2{
+  text-align: right;
+  float: right;  
+} 
 .info{
   text-align: center;
 
 }
 footer{
   background-color: black;
-  text-decoration: aqua;
+  text-decoration: white;
   text-align: center;  
   height: 50px;
+}
+body {
+  font: 1.2em Helvetica, Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #eee;
+}
+@media only screen and (min-width: 1px) and (max-width: 1200px) {
+  .align-middle {
+    display: none;
+  }
 }
