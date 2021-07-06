@@ -11,10 +11,12 @@ body{
   margin: 20px;
   padding: 0;
   background-color: #eee;
+  width: 100%;
 }
 .image3{
   text-align: center;
   margin-top: 200px;
+  margin-bottom: 50px;
 
 }
 .image1{
@@ -38,7 +40,7 @@ footer{
 }
 body {
   font: 1.2em Helvetica, Arial, sans-serif;
-  margin: 20px;
+  margin: 0px;
   padding: 0;
   background-color: #eee;
 }
@@ -46,4 +48,21 @@ body {
   .align-middle {
     display: none;
   }
+  p{
+    text-align: center;
+  }
+  body {
+      max-width: 100%;
+  }
+  .img-responsive{
+    max-width: 100%;
+  }
+
+}
+.container{
+  margin-top: 50px; 
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
