@@ -1,0 +1,25 @@
+header{
+  background-color: beige;
+  text-align: right;
+}
+h1{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+@media only screen and (min-width: 1px) and (max-width: 1200px){
+  .container-fluid{
+    width: 100%;
+  }
+}
+main{
+  table-layout: 500px;
+  width: 100%;
+}
+body{
+  background-color: #eee;
+}
+tr{
+  border-radius: 25px;
+  
+}
