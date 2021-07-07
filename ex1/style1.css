@@ -1,9 +1,25 @@
+<<<<<<< HEAD
+=======
+header{
+  background-color: beige;
+  text-align: right;
+  width: 100%;
+}
+>>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
 h1{
   text-align: center;
   margin-top: 10%;
   margin-bottom: 10%;
 }
+<<<<<<< HEAD
 
+=======
+@media only screen and (min-width: 1px) and (max-width: 1200px){
+  .container-fluid{
+    width: 100%;
+  }
+}
+>>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
 main{
   table-layout: 500px;
   width: 50%;
@@ -12,6 +28,7 @@ main{
 
 }
 body{
+<<<<<<< HEAD
   font: 1.5 em Helvetica, Arial, sans-serif;
   margin: 20px;
   padding: 0;
@@ -22,16 +39,28 @@ body{
   left: 0;
   min-width: 100%;
   min-height: 100%;  
+=======
+  background-color: #eee;
+  width: 100%;
+  
+>>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
 }
 tr{
   border-radius: 25px;
   
 }
+<<<<<<< HEAD
 footer{  
   text-decoration: ghostwhite;
   background-color: beige;  
   text-align: center;
   vertical-align: text-bottom;  
+=======
+footer{
+  background-color: black;
+  text-decoration: white;
+  text-align: center;  
+>>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
   height: 50px;
   bottom: 0;
   width: 100%;
