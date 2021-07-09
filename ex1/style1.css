@@ -3,31 +3,32 @@ header{
   text-align: right;
   width: 100%;
 }
+
 body{
   font: 1.2em Helvetica, Arial, sans-serif;  
   margin: 0px;
   padding: 0;
   background-color: #eee;
-} 
+}
+
 h1{
   text-align: center;
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: 'Courier New', Courier, monospace;
+}
 
-  }
 main{
   table-layout: 500px;
   width: 50%;
   margin-left: 25%;
   text-align: center;
-
 }
 
 tr{
-  border-radius: 25px;
-  
+  border-radius: 25px;  
 }
+
 footer{  
   text-decoration: ghostwhite;
   background-color: beige;  
@@ -38,9 +39,28 @@ footer{
   width: 100%;
   position: fixed;
 }
+
 table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   border: 3px solid purple;
 }
+@media (max-width: 700px){
+  .table thead {
+  display: none;
+  }
+  .table tr{
+  display: block;
+  margin-bottom: 40px;
+  }
+  .table td {
+  display: block;
+  text-align: right;
+  }
+  .table td:before {
+  content: attr(data-label);
+  float: left;
+  font-weight: bold;
+  }
+  }
