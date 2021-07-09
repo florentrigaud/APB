@@ -1,25 +1,21 @@
-<<<<<<< HEAD
-=======
 header{
   background-color: beige;
   text-align: right;
   width: 100%;
 }
->>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
+body{
+  font: 1.2em Helvetica, Arial, sans-serif;  
+  margin: 0px;
+  padding: 0;
+  background-color: #eee;
+} 
 h1{
   text-align: center;
   margin-top: 10%;
   margin-bottom: 10%;
-}
-<<<<<<< HEAD
+  font-family: 'Courier New', Courier, monospace;
 
-=======
-@media only screen and (min-width: 1px) and (max-width: 1200px){
-  .container-fluid{
-    width: 100%;
   }
-}
->>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
 main{
   table-layout: 500px;
   width: 50%;
@@ -27,40 +23,16 @@ main{
   text-align: center;
 
 }
-body{
-<<<<<<< HEAD
-  font: 1.5 em Helvetica, Arial, sans-serif;
-  margin: 20px;
-  padding: 0;
-  color:black;  
-  background-image:url(AdobeStock_41916191_Preview.jpeg);
-  background-attachment: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;  
-=======
-  background-color: #eee;
-  width: 100%;
-  
->>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
-}
+
 tr{
   border-radius: 25px;
   
 }
-<<<<<<< HEAD
 footer{  
   text-decoration: ghostwhite;
   background-color: beige;  
   text-align: center;
   vertical-align: text-bottom;  
-=======
-footer{
-  background-color: black;
-  text-decoration: white;
-  text-align: center;  
->>>>>>> 40e3cb2e3016a68ebfadfb183e9ea44be9d997e4
   height: 50px;
   bottom: 0;
   width: 100%;
