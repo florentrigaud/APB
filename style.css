@@ -26,7 +26,8 @@ p{
 
 body{
   font: 1.2em Helvetica, Arial, sans-serif;
-  margin: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
   padding: 0;
   background-color: #eee;
 }
@@ -39,7 +40,7 @@ body{
 
 .image1{
   text-align: left;
-  float: left;
+  float: left;  
 }
 
 .image2{
@@ -68,7 +69,7 @@ footer{
   } 
   p{
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
   }
   body {
       max-width: 100%;
@@ -79,10 +80,13 @@ footer{
 }
 
 @media only screen and (min-width: 1px) and (max-width: 414px) {
+    .image3 {
+    margin-top: 100px;
+  }
   .align-middle {
     margin-bottom: 0;
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
   }
   p{
     text-align: center;
@@ -91,22 +95,7 @@ footer{
   body {
      max-width: 100%;
   }
-  .img-responsive {
-    max-width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1px) and (max-width: 1200px) {
-  .align-middle {
-    margin-bottom: 0;
-    height: 300px;
-    width: 500px;
-  }      
-  .container{
-  margin-top: 150px;   
-  }
-  h1{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  button{
+    display: none;
   }
 }
